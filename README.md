@@ -10,8 +10,6 @@ distintos personajes de la serie Breaking Bad y elegir entre ellos para acceder 
 
 # Pasos para levantar el proyecto:
 
-- Clonar el repo
+- Clonar el repositorio
 - Instalar npm
 - Instalar Sass
-- Correr ***`npm install`*** para generar instalar las librerias utilizadas en el proyecto
-- Correr ***`npm run start`*** para ver la aplicación funcionando en el puerto 3000
