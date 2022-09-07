@@ -1,0 +1,42 @@
+.card {
+	transition: border 1s;
+	padding: 0.3em;
+	opacity: 0.6;
+	transition: opacity 1s;
+	transition: transform 1s;
+	&:hover {
+		transform: scale(1.25);
+		opacity: 1;
+	}
+	@media screen and (max-width: 1024px) {
+		opacity: 1;
+	}
+	&__content {
+		margin: 1em;
+	}
+	&__img {
+		border-radius: 0.5em;
+		height: 11em;
+		width: 9em;
+		box-shadow: 0.5em 0.5em 0.5em black;
+	}
+	&__name {
+		display: flex;
+		font-size: 1.5em;
+		align-items: flex-end;
+		padding: 0.8em;
+		height: 7em;
+		width: 4em;
+		color: aliceblue;
+		position: absolute;
+		opacity: 0;
+		transition: opacity 2s;
+		&:hover {
+			opacity: 1;
+		}
+		@media screen and (max-width: 1024px) {
+			opacity: 0.8;
+			font-size: 1.5em;
+		}
+	}
+}
