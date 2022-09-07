@@ -7,19 +7,19 @@ import Character from "./components/Character/Character";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/final_project_usach" exact element={<Home />} />
-          <Route path="/characters" exact element={<Main />} />
-          <Route path="/Character/:id" element={<Character />} />
-        </Routes>
-        <Footer />
-      </Router>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Router>
+				<Navbar />
+				<Routes>
+					<Route path="/home" exact element={<Home />} />
+					<Route path="/characters" exact element={<Main />} />
+					<Route path="/Character/:id" element={<Character />} />
+				</Routes>
+				<Footer />
+			</Router>
+		</div>
+	);
 }
 
 export default App;
