@@ -1,9 +1,8 @@
 # Proyecto final Bootcamp Front End Usach
 
-Aplicación web desarrollada por Fabián Morales y Patricia Soto, que permite visualizar los
+Aplicación web desarrollada por Fabián Morales, que permite visualizar los
 distintos personajes de la serie Breaking Bad y elegir entre ellos para acceder a mas información.
 
-El proyecto puede ser visualizado en: https://psotose.github.io/final_project_usach/
 # Tecnologías utilizadas
 
 - React
